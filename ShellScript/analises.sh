@@ -1,6 +1,8 @@
 #!/bin/bash
 
-LOG="logs/nginx-access.log"
+#Caso queira executar seus logs insira o caminho aqui
+#exemplo: /var/log/nginx/seuarquivo.log
+LOG=${1:-"logs/nginx-access.log"}
 
 echo "Top 5 IPs com mais requisições:"
 awk '{print $1}' $LOG | sort | uniq -c | sort -rn | head -5
