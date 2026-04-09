@@ -29,7 +29,7 @@ chmod +x scripts/analise.sh
 ```
 ├── logs/
 │   └── nginx-access.log
-└── scripts/
-    └── analise.sh
+└── ShellScript/
+    └── analises.sh
 ```
 
