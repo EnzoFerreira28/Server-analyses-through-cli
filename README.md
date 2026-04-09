@@ -20,8 +20,8 @@ Script Shell que analisa um arquivo de log do Nginx e exibe:
 ## Como executar
 
 ```bash
-chmod +x scripts/analise.sh
-./scripts/analise.sh
+chmod +x ShellScript/analises.sh
+./ShellScript/analises.sh
 ```
 
 ## Estrutura do projeto
